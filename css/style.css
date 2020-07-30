@@ -1,0 +1,114 @@
+body {
+	margin: 0;
+	padding: 0;
+
+	font-family: 'PT Sans', Arial, sans-serif;
+	font-size: 14px;
+	line-height: 26px;
+	font-weight: 700;
+	color: #000000;
+	text-transform: uppercase;
+
+	background-color: white;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+.main-navigation {
+	background-color: white;
+	color: #000000;
+}
+
+.main-navigation li {
+	list-style: none;
+}
+
+.main-navigation a {
+	color: #000000;
+}
+
+.main-navigation li:hover,
+.main-navigation li:focus {
+	background-color: #e0eef7;
+}
+
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+}
+
+.intro-picture {
+	background-color: #e0eef7;
+	background-image: url(../img/background-photo.jpg), url(../img/background-angle.png) ;
+}
+
+.intro-text {
+	text-align: center;
+}
+
+.intro-text h2 {
+	font-size: 21px;
+	line-height: 26px;
+}
+
+.intro-text p {
+	color: #333333;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 26px;
+}
+
+.features {
+	text-align: center;
+}
+
+.features li {
+	list-style: none;
+}
+
+.features p {
+	font-size: 14px;
+	line-height: 21px;
+	font-weight: 400;
+	
+}
+
+.feature-first,
+.feature-second {
+	background-color: #81b3d2;
+	background-repeat: no-repeat;
+
+	color: #ffffff;
+}
+
+.feature-first,
+.feature-second p {
+	color: white;
+
+.feature-housing {
+	background-color: white;
+	background-image: url(../img/housing-icon-1.png);
+	background-repeat: no-repeat;
+}
+
+.feature-food {
+	background-color: white;
+	background-image: url(../img/burger-icon-2.png);
+	background-repeat: no-repeat;
+}
+
+.feature-souvenirs {
+	background-color: white;
+	background-image: url(../img/souvenirs-icon-3.png);
+	background-repeat: no-repeat;
+}
+
+.features-other {
+	background-color: #eeeeee;
+}
