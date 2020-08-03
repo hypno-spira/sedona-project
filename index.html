@@ -33,7 +33,7 @@
       </div>
   	    <section>
   	    	<div class="intro-text">
-  	    		<h2>Седона &#8212; небольшой городок в Аризоне, <br>заслуживающий большего!</h2>
+  	    		<h2>Седона &#8212; небольшой городок в Аризоне,<br>заслуживающий большего!</h2>
   	    		<p>Рассмотрим 5 причин, по которым Седона круче, чем Гранд Каньон!</p>
   	    	</div>
   	    	<ol class="features">
@@ -77,14 +77,14 @@
   	    		    </p>	
   	    		</li>
   	    		<li class="features-other">
-  	    			<h3>Красивая дорога</h3>
+  	    			<h3>Красивая<br>дорога</h3>
   	    			<p>
   	    				&#8212; №4 &#8212;<br>
   	    				Ехать в Седону из Лас-Вегаса совсем<br>не скучно!
   	    		    </p>	
   	    		</li>
   	    		<li class="features-other">
-  	    			<h3>Мало туристов</h3>
+  	    			<h3>Мало<br>туристов</h3>
   	    			<p>
   	    				&#8212; №5 &#8212;<br>
   	    				Большинство едет в Гранд Каньон<br>и толпится там
@@ -93,14 +93,60 @@
   	    	</ol>
   	    </section>
 
-  	    <section>
-  	    	<div>
-  	    		<h2>Выбор гостиницы</h2>
-  	    		<b>Заинтересовались?</b>
-  	    		<p>Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне</p>
-  	    		<a href="#">Поиск гостиницы в Седоне</a>
-  	    	</div>
-  	    	<form action="https://echo.htmlacademy.ru" method="post">
+  	    <section class="interest">
+  	    		<h2 class="visually-hidden">Выбор гостиницы</h2>
+  	    		<h3>Заинтересовались?</h3>
+  	    		<p>Укажите предполагаемые даты поездки,<br>и мы покажем вам лучшие предложения гостиниц в Седоне</p>
+  	    		<a class="interest-button" href="#">Поиск гостиницы в Седоне</a>
+  	    </section>
+
+  	    <div class="map">
+  	    	<iframe 
+  	    	src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12358.684988128782!2d-111.76654188673173!3d34.87148950641973!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872da132f942b00d%3A0x5548c523fa6c8efd!2z0KHQtdC00L7QvdCwLCDQkNGA0LjQt9C-0L3QsCA4NjMzNiwg0KHQqNCQ!5e0!3m2!1sru!2sru!4v1571989826538!5m2!1sru!2sru" 
+            width="1200" 
+            height="593" 
+            style="border:0;" allowfullscreen="">
+            	
+            </iframe>
+            <img src="img/map.jpg" alt="Седона на карте" width="1200" height="593">
+        </div>
+  	</main>
+  	<footer class="footer">
+  		<p>
+  			<a href="#">#VisitSedona</a><br>
+  		</p>
+      <p>
+        Тел: +7(495)666-02-66
+      </p>
+  		<div>
+  			<ul>
+    			<li>
+    				<a class="sn-twitter" href="#">
+            <img src="img/twitter-icon.svg" alt="Твиттер">
+            </a>
+    			</li>
+    			<li>
+    				<a class="sn-facebook" href="#">
+              <img src="img/facebook-icon.svg" alt="Фэйсбук">
+            </a>
+    			</li>
+    			<li>
+    				<a class="sn-youtube" href="#">
+              <img src="img/youtube-icon.svg" alt="Ютуб">
+            </a>
+    			</li>
+    		</ul>
+  		</div>
+  		<p class="website-by">
+  			<span>Webcite by</span>
+  			<a class="ha-logo" href="https://htmlacademy.ru/">
+        <img src="img/htmlacademy-logo.svg" width="117" height="47" alt="htmlacademy">
+      </a>
+  		</p>
+  	</footer>
+
+    <!-- модальные части после футера -->
+    <form class="search-form" action="https://echo.htmlacademy.ru" method="post">
             <p>
               <label for="arrival-date">Дата заезда:</label>
               <input id="arrival-date" type="date" name="ar-date" value="2017-04-24">              
@@ -117,44 +163,8 @@
               <label for="child-counter">Дети:</label>
               <input id="child-counter" type="number" name="child-counter" min="0">              
             </p>
-            <button type="submit">Найти</button>            
+            <button class="button-in-form" type="submit">Найти</button>            
           </form>
-  	    </section>
-
-  	    <div class="map">
-  	    	<iframe 
-  	    	src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12358.684988128782!2d-111.76654188673173!3d34.87148950641973!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872da132f942b00d%3A0x5548c523fa6c8efd!2z0KHQtdC00L7QvdCwLCDQkNGA0LjQt9C-0L3QsCA4NjMzNiwg0KHQqNCQ!5e0!3m2!1sru!2sru!4v1571989826538!5m2!1sru!2sru" 
-            width="1200" 
-            height="593" 
-            style="border:0;" allowfullscreen="">
-            	
-            </iframe>
-            <img src="img/map.jpg" alt="Седона на карте" width="1200" height="593">
-        </div>
-  	</main>
-  	<footer>
-  		<p>
-  			<a href="#">#VisitSedona</a><br>
-  			Тел: +7(495)666-02-66
-  		</p>
-  		<div>
-  			<ul>
-    			<li>
-    				<a href="#">Твиттер</a>
-    			</li>
-    			<li>
-    				<a href="#">Фейсбук</a>
-    			</li>
-    			<li>
-    				<a href="#">Ютуб</a>
-    			</li>
-    		</ul>
-  		</div>
-  		<p>
-  			Webcite by
-  			<a href="https://htmlacademy.ru/">HTML Academy</a>
-  		</p>
-  	</footer>
   </div>
   </body>
 </html>

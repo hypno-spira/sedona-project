@@ -90,8 +90,10 @@ a {
 .feature-first,
 .feature-second p {
 	color: white;
+}
 
-.feature-housing {
+.feature-housing 
+ {
 	background-color: white;
 	background-image: url(../img/housing-icon-1.png);
 	background-repeat: no-repeat;
@@ -112,3 +114,87 @@ a {
 .features-other {
 	background-color: #eeeeee;
 }
+
+li h3 {
+	font-size: 21px;
+	line-height: 21px;
+}
+
+.interest h3 {
+	font-size: 30px;
+	line-height: 36px;
+	color: #000000;
+	text-align: center;
+}
+
+.interest p {
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 400;
+	text-align: center;
+}
+
+.interest-button {
+	font-size: 21px;
+	line-height: 26px;
+	font-weight: 700;
+	text-align: center;
+	color: #ffffff;
+	background-color: #766357;
+}
+
+.interest-button:hover,
+.interest-button:focus {
+	background-color: #81b3d2;
+}
+
+.search-form p {
+	font-size: 14px;
+	line-height: 26px;
+	font-weight: 700;
+	color: #000000;
+}
+
+.search-form input {
+	background-color: #f2f2f2;
+	border: 0;
+}
+
+.button-in-form {
+	font-size: 21px;
+	line-height: 26px;
+	font-weight: 700;
+	text-align: center;
+	color: #ffffff;
+	text-transform: uppercase;
+
+	background-color: #81b3d2;
+	border: 0;
+}
+
+.footer {
+	background-color: rgba(255, 255, 255, 0.9);
+}
+
+.footer p {
+	font-size: 21px;
+	line-height: 26px;
+}
+
+.footer li {
+	list-style: none;
+}
+
+.sn-twitter,
+.sn-facebook,
+.sn-youtube {
+	background-color: #81b3d2;
+	background-size: 46px 48px;
+}
+
+.website-by span {
+	font-size: 14px;
+	line-height: 26px;
+	font-weight: 400;
+}
+
